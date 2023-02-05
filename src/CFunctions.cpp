@@ -74,7 +74,7 @@ WORD CFunctions::GetFreePlayerSlot()
 {
 	// Loop through all the players
 	int iMaxPlayers = static_cast<int>(GetMaxPlayers());
-	for (int i = iMaxPlayers - 1; i != -1; i--) {
+	for (int i = 0; i != 999; i++) {
 		// Is he not connected ?
 		if (!pNetGame->pPlayerPool->bIsPlayerConnected[i]) {
 			return static_cast<WORD>(i);

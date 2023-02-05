@@ -71,6 +71,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void **ppData)
 	logprintf("");
 	logprintf("-------------------------------------------------");
 	logprintf("     FCNPC - Fully Controllable NPC v" PLUGIN_VERSION "");
+	logprintf("     Rebuild by Brainer for 0-999 ID`s");
 	logprintf("            " SYSTEM_NAME " %s %s", szSampClient, szSampVersion);
 	logprintf("           " __DATE__" at " __TIME__);
 	logprintf("");
